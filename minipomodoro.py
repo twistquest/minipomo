@@ -8,7 +8,6 @@ def pomo(
     timeElapsed: int = (
         0  # assuming second precision is good enough for this simple of a task
     )
-    print(f"your {label} will take {duration * 60}s")
     while timeElapsed < (duration * 60):
         sleep(1)
         timeElapsed += 1
